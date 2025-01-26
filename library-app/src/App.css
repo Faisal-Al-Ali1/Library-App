@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  /* Modern, sleek font */
+  line-height: 1.8;
+  background-color: #f0f4f8;
+  /* Light blue-gray background */
+  color: #1a1a1a;
+  /* Dark gray for text */
+}
+
+/* Header Styling */
+header {
+  color: rgb(65, 65, 65);
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #797979;
+  /* Light gray */
+}
+
+/* Main Section Styling */
+main {
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+/* Book Card Styling */
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: left;
+  /* Left-aligned text */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  /* Full width within grid */
+  height: auto;
+  /* Height adjusts to content */
+  min-height: 200px;
+  /* Minimum height for consistency */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 1.8rem;
+  margin: 0 0 20px;
+  color: #2d3748;
+  /* Dark gray-blue */
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #4a5568;
+  /* Medium gray */
+}
+
+.card p strong {
+  color: #2d3748;
+  /* Dark gray-blue for emphasis */
+}
+
+/* Footer Styling */
+footer {
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 1rem;
+  margin: 0;
+  font-style: italic;
+  color: #353d45;
+  /* Light gray */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .card h3 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}
