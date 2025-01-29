@@ -12,37 +12,6 @@ body {
   /* Dark gray for text */
 }
 
-/* Header Styling */
-header {
-  color: rgb(65, 65, 65);
-  text-align: center;
-  padding: 50px 0;
-}
-
-header h1 {
-  font-size: 2.8rem;
-  margin: 0;
-  font-weight: 700;
-  letter-spacing: -1px;
-}
-
-header p {
-  font-size: 1.1rem;
-  margin-top: 10px;
-  color: #797979;
-  /* Light gray */
-}
-
-/* Main Section Styling */
-main {
-  padding: 40px 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  max-width: 1100px;
-  margin: 40px auto;
-}
-
 /* Book Card Styling */
 .card {
   background: white;
